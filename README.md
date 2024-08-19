@@ -14,9 +14,10 @@
 **Collection API Endpoints:**
 
 
-{
+     {
 	"info": 
- {              "_postman_id": "2cc850aa-d150-489a-ab9f-f80f9b3e385e",
+      {             
+        "_postman_id": "2cc850aa-d150-489a-ab9f-f80f9b3e385e",
   
 		"name": "react1",
   
