@@ -11,6 +11,109 @@
 
 <img width="624" alt="Screenshot 2024-08-19 at 8 56 38 PM" src="https://github.com/user-attachments/assets/e8adcf43-9240-40ac-aa9e-fe11e023f453">
 
+**Collection API Endpoints:**
+
+{
+	"info": {
+ 
+		"_postman_id": "2cc850aa-d150-489a-ab9f-f80f9b3e385e",
+  
+		"name": "react1",
+  
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+  
+		"_exporter_id": "37736528"
+	},
+ 
+	"item": [
+		{
+			"name": "create tasks",
+   
+			"protocolProfileBehavior": {
+   
+				"disableBodyPruning": true
+			},
+   
+			"request": {
+   
+				"method": "GET",
+    
+				"header": [],
+    
+				"body": {
+    
+					"mode": "raw",
+     
+					"raw": "{\n    \"text\": \"hiii test\"\n}\n",
+     
+					"options": {
+     
+						"raw": {
+      
+							"language": "json"
+       
+						}
+					}
+				},
+				"url": {
+    
+					"raw": "https://to-do-backend-xi.vercel.app/tasks",
+     
+					"protocol": "https",
+     
+					"host": [
+     
+						"to-do-backend-xi",
+      
+						"vercel",
+      
+						"app"
+					],
+     
+					"path": [
+     
+						"tasks"
+					]
+				}
+			},
+   
+			"response": []
+		},
+  
+		{
+			"name": "delete",
+   
+			"request": {
+   
+				"method": "DELETE",
+    
+				"header": [],
+    
+				"url": {
+    
+					"raw": "http://localhost:5000/tasks/66c2daf7a2f637e0e1eeaaac\n",
+     
+					"protocol": "http",
+					"host": [
+     
+						"localhost"
+					],
+					"port": "5000",
+     
+					"path": [
+     
+						"tasks",
+      
+						"66c2daf7a2f637e0e1eeaaac\n"
+					]
+				}
+			},
+   
+			"response": []
+		}
+	]
+}
+
 
 
 **FRONTEND GITHUB LINK:** https://github.com/Yuvanidhi/ToDo-frontend.git
