@@ -12,10 +12,7 @@ app.use(cors());
 
 const dbURI = process.env.MONGODB_URI;
 // Connect to MongoDB
-mongoose.connect(dbURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+mongoose.connect(dbURI);
 
 // Use task routes
 app.use('/tasks', taskRoutes);
