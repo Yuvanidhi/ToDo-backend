@@ -8,11 +8,8 @@
 	"item": [
 		{
 			"name": "create tasks",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -44,15 +41,16 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/tasks/66c2daf7a2f637e0e1eeaaac\n",
-					"protocol": "http",
+					"raw": "https://to-do-backend-xi.vercel.app/tasks/66c375a62ecdcbbd6b1e5438",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"to-do-backend-xi",
+						"vercel",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"tasks",
-						"66c2daf7a2f637e0e1eeaaac\n"
+						"66c375a62ecdcbbd6b1e5438"
 					]
 				}
 			},
