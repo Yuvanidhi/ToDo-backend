@@ -11,13 +11,13 @@
 
 <img width="624" alt="Screenshot 2024-08-19 at 8 56 38 PM" src="https://github.com/user-attachments/assets/e8adcf43-9240-40ac-aa9e-fe11e023f453">
 
-**Collection API Endpoints:**
 
+**Collection Endpoints:**
 
-     {
-	"info": 
-      {             
-        "_postman_id": "2cc850aa-d150-489a-ab9f-f80f9b3e385e",
+{
+	"info": {
+ 
+		"_postman_id": "2cc850aa-d150-489a-ab9f-f80f9b3e385e",
   
 		"name": "react1",
   
@@ -25,19 +25,14 @@
   
 		"_exporter_id": "37736528"
 	},
- 
 	"item": [
+ 
 		{
 			"name": "create tasks",
    
-			"protocolProfileBehavior": {
-   
-				"disableBodyPruning": true
-			},
-   
 			"request": {
    
-				"method": "GET",
+				"method": "POST",
     
 				"header": [],
     
@@ -52,7 +47,6 @@
 						"raw": {
       
 							"language": "json"
-       
 						}
 					}
 				},
@@ -70,17 +64,14 @@
       
 						"app"
 					],
-     
 					"path": [
      
 						"tasks"
 					]
 				}
 			},
-   
 			"response": []
 		},
-  
 		{
 			"name": "delete",
    
@@ -92,28 +83,31 @@
     
 				"url": {
     
-					"raw": "http://localhost:5000/tasks/66c2daf7a2f637e0e1eeaaac\n",
+					"raw": "https://to-do-backend-xi.vercel.app/tasks/66c375a62ecdcbbd6b1e5438",
      
-					"protocol": "http",
+					"protocol": "https",
+     
 					"host": [
      
-						"localhost"
+						"to-do-backend-xi",
+      
+						"vercel",
+      
+						"app"
+      
 					],
-					"port": "5000",
-     
 					"path": [
      
 						"tasks",
       
-						"66c2daf7a2f637e0e1eeaaac\n"
+						"66c375a62ecdcbbd6b1e5438"
 					]
 				}
 			},
-   
 			"response": []
 		}
-	]  }
-
+	]
+}
 
 
 
